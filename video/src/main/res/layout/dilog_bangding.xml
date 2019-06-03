@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dip"
+    android:layout_marginLeft="30dip"
+    android:layout_marginRight="30dip"
+    android:background="@drawable/dlog_testing_time"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="提示"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="本视频需要消耗60钻石"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="10dip"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="110dip"
+                android:layout_height="40dip"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dip"
+                android:gravity="center"
+                android:paddingLeft="10dip"
+                android:text="取消"
+                android:textColor="#000"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/center"
+                android:layout_width="110dip"
+                android:layout_height="40dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dip"
+                android:gravity="center"
+                android:paddingRight="10dip"
+                android:text="确定"
+                android:textColor="@color/colorPrimary"
+                android:textSize="19sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dip"
+            android:background="#c0c0c0" />
+
+        <TextView
+            android:id="@+id/bangding_vip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/dp_10"
+            android:text="开通VIP会员全站视频免费看"
+            android:textColor="#ec894e"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
